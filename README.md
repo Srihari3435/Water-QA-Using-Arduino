@@ -7,17 +7,26 @@ Maintaining water quality is critical for various applications, including drinki
 
 # Features
 Real-Time Monitoring: Continuously measures water temperature, pH levels, and TDS values.
+
 Display: Outputs the readings on an LCD or serial monitor.
+
 Calibration: Allows calibration of sensors for accurate measurements.
+
 Compact Design: Utilizes the small and versatile Arduino Nano.
 
 # Components Required
 Arduino Nano
+
 pH Sensor Module
+
 TDS Sensor Module
+
 Temperature Sensor (e.g., DS18B20 or LM35)
+
 16x2 LCD Display (optional)
+
 Breadboard and Jumper Wires
+
 Power Supply (e.g., 9V battery or USB power)
 
 
@@ -25,13 +34,19 @@ Power Supply (e.g., 9V battery or USB power)
 Once the circuit is connected and the code is uploaded:
 
 Power the Arduino: You can power it via USB or an external power source.
+
 Monitor the Readings: Readings will be displayed on the serial monitor or the connected LCD display.
+
 Interpret the Results:
+
 Temperature: Measured in degrees Celsius.
+
 pH Level: A value typically between 0 and 14, where 7 is neutral, below 7 is acidic, and above 7 is basic.
+
 TDS: Measured in ppm (parts per million), indicating the concentration of dissolved solids in the water.
 
 # Code Explanation
+
 setup(): Initializes the sensors and LCD display. Also sets up the serial communication.
 
 loop(): Continuously reads the sensor values, calculates the corresponding water quality metrics, and displays the results.
@@ -46,9 +61,11 @@ LCD Display Issues: Verify the wiring and contrast adjustment on the LCD. Ensure
 
 No Serial Output: Make sure the correct COM port is selected in the Arduino IDE
 
-Contact
+# Contact
 If you have any questions or suggestions, feel free to reach out:
 
 Name: Srihari
+
 Email: sriharijk2004@gmail.com
+
 GitHub: https://github.com/Srihari3435
