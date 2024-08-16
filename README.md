@@ -33,13 +33,17 @@ TDS: Measured in ppm (parts per million), indicating the concentration of dissol
 
 # Code Explanation
 setup(): Initializes the sensors and LCD display. Also sets up the serial communication.
+
 loop(): Continuously reads the sensor values, calculates the corresponding water quality metrics, and displays the results.
+
 Sensor Functions: Each sensor has a dedicated function for reading and converting raw data into meaningful values.
-For more details, refer to the comments within the water_quality.ino file.
+
 
 # Troubleshooting
 Inaccurate Readings: Ensure sensors are calibrated correctly. Double-check all wiring connections.
+
 LCD Display Issues: Verify the wiring and contrast adjustment on the LCD. Ensure the LCD library is installed and correctly referenced in the code.
+
 No Serial Output: Make sure the correct COM port is selected in the Arduino IDE
 
 Contact
